@@ -13,26 +13,22 @@ export const metadata: Metadata = {
   },
   title: "Roshni Khatri",
   description:
-    "Alexander Meikopoulos is a Product designer, developer & founder.",
+    "",
   keywords:
-    "Alexander Meikopoulos, Product Designer, AI, Web3, Finance, User Experience, UI/UX Design, Design Systems, Front-end Development, Decentralized Finance, DeFi, Swoop Exchange, Vela Exchange, Stealth AI Startup, Technology, Innovation, Human-Centered Design",
+    "Roshni Khatri",
   openGraph: {
     locale: "en_US",
     siteName: "Roshni Khatri",
     type: "website",
     title: "Roshni Khatri",
     description:
-      "Alexander Meikopoulos is a Product designer, developer & founder.",
-    url: "https://meikopoulos.com",
+      "",
+    url: "",
     images: [
       {
-        url: "./og-large-meik-2.jpg",
+        url: "",
       },
     ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Alexander Meikopoulos",
   },
 };
 
