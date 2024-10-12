@@ -25,9 +25,9 @@ export default function Footer() {
           <a className="text-foreground" href="https://ui.shadcn.com/">
             Shadcn/ui
           </a>
-          , deployed on{" "}
+          , deployed with{" "}
           <a className="text-foreground" href="https://vercel.com/">
-            Github
+            Vercel
           </a>
           .
         </p>

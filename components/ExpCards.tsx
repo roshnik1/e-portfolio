@@ -72,7 +72,7 @@ const jobPositions = [
     ],
   },
   {
-    timeline: "May 2020 - Aug 2020",
+    timeline: "May 2020 — Aug 2020",
     currentPosition: "Data Analyst Apprenticeship",
     place: "Accenture",
     previousPositions: [""],
