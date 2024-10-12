@@ -24,7 +24,7 @@ const jobProjects = [
       "Azure",
       "Heroku",
     ],
-    link: "https://vela.exchange",
+    link: "https://github.com/roshnik1/KroDash",
   },
   {
     imagePath: "",
@@ -38,7 +38,7 @@ const jobProjects = [
       "Vercel",
       "Firebase"
     ],
-    link: "https://l3x.com",
+    link: "https://github.com/roshnik1/CodeInCStructor.ai",
   },
   {
     imagePath: "",
@@ -50,7 +50,7 @@ const jobProjects = [
       "Python",
       "Data Analysis"
     ],
-    link: "https://swoop.exchange",
+    link: "https://github.com/roshnik1/SNL-Analytics",
   },
   {
     imagePath: "",
@@ -62,7 +62,7 @@ const jobProjects = [
       "Natural Language Processing",
       "OpenAI"
     ],
-    link: "https://app.mtopswap.com",
+    link: "https://github.com/roshnik1/SwiftSense",
   },
 ];
 
