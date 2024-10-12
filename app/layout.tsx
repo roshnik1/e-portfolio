@@ -11,16 +11,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://meikopoulos.com",
   },
-  title: "Alexander Meikopoulos - Product Designer in AI, Web3, and Finance",
+  title: "Roshni Khatri",
   description:
     "Alexander Meikopoulos is a Product designer, developer & founder.",
   keywords:
     "Alexander Meikopoulos, Product Designer, AI, Web3, Finance, User Experience, UI/UX Design, Design Systems, Front-end Development, Decentralized Finance, DeFi, Swoop Exchange, Vela Exchange, Stealth AI Startup, Technology, Innovation, Human-Centered Design",
   openGraph: {
     locale: "en_US",
-    siteName: "Alexander Meikopoulos",
+    siteName: "Roshni Khatri",
     type: "website",
-    title: "Alexander Meikopoulos",
+    title: "Roshni Khatri",
     description:
       "Alexander Meikopoulos is a Product designer, developer & founder.",
     url: "https://meikopoulos.com",

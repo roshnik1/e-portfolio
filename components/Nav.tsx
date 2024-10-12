@@ -51,8 +51,8 @@ export default function Nav() {
           Data-Driven Problem Solver
         </h2>
         <p className="text-base lg:text-start text-muted-foreground">
-        I deliver actionable insights that enhance <br></br>
-        decision-making and drive results.
+          I deliver actionable insights that enhance <br></br>
+          decision-making and drive results.
         </p>
       </div>
       <nav className="lg:flex hidden">
