@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MoveUpRight } from "lucide-react";
+import { MoveRight } from "lucide-react";
 
 const jobProjects = [
   {
@@ -112,6 +113,19 @@ export default function Projects() {
           </a>
         ))}
       </>
+      <div className="lg:px-12 mt-12">
+        <a
+          href="https://github.com/roshnik1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center font-medium leading-tight text-foreground group"
+        >
+          <span className="border-b border-transparent pb-px transition hover:border-primary motion-reduce:transition-none">
+            View Full Project Archive
+          </span>
+          <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />
+        </a>
+      </div>
     </section>
   );
 }

@@ -8,7 +8,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { MoveRight } from "lucide-react";
 
 const jobPositions = [
   {
@@ -127,19 +126,6 @@ export default function ExpCard() {
           </Card>
         ))}
       </>
-      <div className="lg:px-12 mt-12">
-        <a
-          href="/Resume Draft.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center font-medium leading-tight text-foreground group"
-        >
-          <span className="border-b border-transparent pb-px transition hover:border-primary motion-reduce:transition-none">
-            View Full Résumé
-          </span>
-          <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />
-        </a>
-      </div>
     </section>
   );
 }
