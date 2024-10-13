@@ -12,7 +12,7 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
-    imagePath: "",
+    imagePath: "/krodash.png",
     title: "KroDash - Retail Data Dashboard Development",
     description:
       "Krodash is a Kroger retail data dashboard that provides timely insights into sales performance, regional levels, and product behavior, enabling data-driven decision-making for retail operations.",
@@ -27,7 +27,7 @@ const jobProjects = [
     link: "https://github.com/roshnik1/KroDash",
   },
   {
-    imagePath: "",
+    imagePath: "/code_assistant.png",
     title: "AI Drive Python Coding Assistant",
     description:
       "This is an OpenAI-powered platform for Python 101 students at the University of Cincinnati to provide assignment feedback and assist with coding challenges, enhancing their learning experience.",
@@ -41,7 +41,7 @@ const jobProjects = [
     link: "https://github.com/roshnik1/CodeInCStructor.ai",
   },
   {
-    imagePath: "",
+    imagePath: "/snl_cast.png",
     title: "SNL Cast Analytics",
     description:
       "This project analyzes cast tenure and gender representation to highlight diversity trends within SNL's history. It provides insights into the evolving landscape of representation in television.",
@@ -53,7 +53,7 @@ const jobProjects = [
     link: "https://github.com/roshnik1/SNL-Analytics",
   },
   {
-    imagePath: "",
+    imagePath: "/SwiftSense.png",
     title: "SwiftSense",
     description:
       "This exploratory ML project analyzes Taylor Swift's lyrics to uncover meanings and provide insights through natural language processing techniques.",
