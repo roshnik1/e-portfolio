@@ -28,7 +28,7 @@ const jobProjects = [
   },
   {
     imagePath: "/code_assistant.png",
-    title: "AI Drive Python Coding Assistant",
+    title: "AI-Driven Python Coding Assistant",
     description:
       "This is an OpenAI-powered platform for Python 101 students at the University of Cincinnati to provide assignment feedback and assist with coding challenges, enhancing their learning experience.",
     skills: [
