@@ -1,3 +1,3 @@
-# e-portfolio (in progress)
+# 🌟 Welcome to My ePortfolio!
 
-Welcome to my ePortfolio! I am a recent graduate with a strong focus on data analysis and a passion for transforming data into actionable insights. My portfolio highlights various projects, including an analysis of SNL cast tenure and a Kroger analytics dashboard for sales performance. I have hands-on experience with tools such as Python, SQL, and Power BI, and I am eager to leverage my skills to tackle real-world challenges and contribute to data-driven decision-making. Thank you for visiting, and feel free to reach out for collaboration opportunities!
+Hello! I'm a recent graduate with a passion for transforming data into meaningful stories. 📊✨ My journey has been fueled by a curiosity for uncovering insights that drive real-world change. I'm excited to leverage my skills and enthusiasm to tackle new challenges and contribute to impactful decision-making. Check out my portfolio [**here**](https://e-portfolio-blond.vercel.app/), and don’t hesitate to reach out if you’d like to connect! 🤝
