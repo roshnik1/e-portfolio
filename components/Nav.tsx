@@ -1,8 +1,10 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Mail} from "lucide-react";
 import { ModeToggle } from "./ui/toggle-mode";
 import useActiveSection from "@/hooks/useActiveSection";
+import { FaGoodreadsG, FaGithub, FaLinkedin, FaEnvelope, FaGoodreads } from "react-icons/fa"; // FontAwesome Goodreads icon
+import { AiFillBook } from "react-icons/ai";
 
 type NavItem = {
   name: string;
@@ -75,23 +77,41 @@ export default function Nav() {
       <ul className="flex flex-row gap-6 mt-6 lg:mt-0">
         <Button variant="outline" size="icon">
           <a
+          href="mailto:khatrirr@outlook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+            <FaEnvelope className="h-[1.2rem] w-[1.2rem]" />
+            </a>
+        </Button>
+        <Button variant="outline" size="icon">
+          <a
             href="https://github.com/roshnik1"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Github className="h-[1.2rem] w-[1.2rem]" />
+            <FaGithub className="h-[1.2rem] w-[1.2rem]" />
           </a>
         </Button>
         <Button variant="outline" size="icon">
           <a
-            href="https://linkedin.com/in/roshnik1"
+            href="https://linkedin.com/in/roshnik1/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Linkedin className="h-[1.2rem] w-[1.2rem]" />
+            <FaLinkedin className="h-[1.2rem] w-[1.2rem]" />
           </a>
         </Button>
-        <ModeToggle />
+        <Button variant="outline" size="icon">
+          <a
+          href="https://www.goodreads.com/user/show/79824790-roshni" 
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+            <FaGoodreads className="h-[1.2rem] w-[1.2rem]" />
+          </a>
+        </Button>
+        {/* <ModeToggle /> */}
       </ul>
     </header>
   );

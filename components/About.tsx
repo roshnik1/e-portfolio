@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const BoldT = styled.span`
   font-weight: bold;
-  color: ${(props) => props.theme.textColor};
+  color: white;
 `;
 
 export default function About() {
