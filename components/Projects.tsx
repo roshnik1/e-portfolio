@@ -51,7 +51,7 @@ const jobProjects = [
       "Python",
       "Data Analysis"
     ],
-    link: "https://github.com/roshnik1/SNL-Analytics",
+    link: "https://github.com/roshnik1/snl-analytics",
   },
   {
     imagePath: "/SwiftSense.png",
