@@ -1,6 +1,6 @@
 # 🌟 Welcome to My ePortfolio!
 
-Hello! I'm a recent graduate with a passion for transforming data into meaningful stories. 📊✨ My journey has been fueled by a curiosity for uncovering insights that drive real-world change. I'm excited to leverage my skills and enthusiasm to tackle new challenges and contribute to impactful decision-making. Check out my portfolio [**here**](https://e-portfolio-blond.vercel.app/), and don’t hesitate to reach out if you’d like to connect!
+Hello! I am a data enthusiast dedicated to transforming data into compelling narratives that drive insights and inform decision-making. 📊✨ My journey has been fueled by a curiosity for uncovering insights that drive real-world change. I'm excited to leverage my skills and enthusiasm to tackle new challenges and contribute to impactful decision-making. Check out my portfolio [**here**](https://e-portfolio-blond.vercel.app/), and don’t hesitate to reach out if you’d like to connect!
 
 ## Steps to run this project on your local machine
 
@@ -19,6 +19,8 @@ Before running the project, ensure you have the following installed on your mach
 
    ```bash
    git clone https://github.com/roshnik1/e-portfolio.git
+
+   cd e-portfolio
    ```
 2. **Install Dependencies**
    ```bash
