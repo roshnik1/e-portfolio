@@ -7,9 +7,9 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://meikopoulos.com"),
+  metadataBase: new URL("https://e-portfolio-blond.vercel.app/"),
   alternates: {
-    canonical: "https://meikopoulos.com",
+    canonical: "https://e-portfolio-blond.vercel.app/",
   },
   title: "Roshni Khatri",
   description:
