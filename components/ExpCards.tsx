@@ -32,7 +32,7 @@ const jobPositions = [
     place: "University of Cincinnati, College of Medicine",
     previousPositions: [""],
     description:
-      "During my internship, I processed and analyzed Traumatic Brain Injury (TBI) patient data using Python and SQL. This experience helped me extract insights from complex datasets and enhance my data analysis skills.",
+      "Analyzed clinical data to improve reporting accuracy, created dashboards to visualize surgery outcomes and enhance report turnaround, and worked closely with clinical teams to define data requirements, ensuring that analytics were aligned with operational goals to support better decision-making and outcomes.",
     skills: [
       "Statistical Analysis",
       "Programming (Python/SQL)",
@@ -42,7 +42,7 @@ const jobPositions = [
     ],
   },
   {
-    timeline: "May 2023 — August 2023",
+    timeline: "May 2023 — Aug 2023",
     currentPosition: "SAP Technical Intern",
     place: "Delaware North America",
     previousPositions: [""],
