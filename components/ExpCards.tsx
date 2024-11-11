@@ -86,8 +86,7 @@ const jobPositions = [
     skills: [
       "SQL",
       "Database Design",
-      "Problem-Solving",
-      "Trend Analysis"
+      "Problem-Solving"
     ],
   },
 ];

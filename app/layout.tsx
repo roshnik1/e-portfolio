@@ -7,29 +7,8 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://e-portfolio-blond.vercel.app/"),
-  alternates: {
-    canonical: "https://e-portfolio-blond.vercel.app/",
-  },
-  title: "Roshni Khatri",
-  description:
-    "",
-  keywords:
-    "Roshni Khatri",
-  openGraph: {
-    locale: "en_US",
-    siteName: "Roshni Khatri",
-    type: "website",
-    title: "Roshni Khatri",
-    description:
-      "",
-    url: "",
-    images: [
-      {
-        url: "",
-      },
-    ],
-  },
+  title: "Roshni's ePortfolio",
+  description: "E-portfolio showcasing my experience and projects",
 };
 
 export default function RootLayout({
