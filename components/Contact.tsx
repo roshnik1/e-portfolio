@@ -16,7 +16,7 @@ export default function Contact() {
           Get In Touch
         </h2>
         <p className="lg:text-sm lg:text-start text-muted-foreground">
-          If you want to see my full CV, have a question, or just
+          If you want to see my full Résumé, have a question, or just
           want to say hi, you can count on hearing back from me!
         </p>
       </div>
