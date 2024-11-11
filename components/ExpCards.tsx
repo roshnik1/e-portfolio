@@ -23,7 +23,7 @@ const jobPositions = [
       "Excel Expertise",
       "SQL Querying",
       "Crtical Thinking",
-      "Cross-functional Collaboration",
+      "Cross-functional Collaboration"
     ],
   },
   {
@@ -32,13 +32,13 @@ const jobPositions = [
     place: "University of Cincinnati, College of Medicine",
     previousPositions: [""],
     description:
-      "Analyzed clinical data to improve reporting accuracy, created dashboards to visualize surgery outcomes and enhance report turnaround, and worked closely with clinical teams to define data requirements, ensuring that analytics were aligned with operational goals to support better decision-making and outcomes.",
+      "Analyzed clinical data to improve reporting accuracy, created dashboards to visualize outcomes, and worked with clinical teams to align analytics with operational goals.",
     skills: [
       "Statistical Analysis",
       "Programming (Python/SQL)",
       "ETL Processes",
       "Tableau",
-      "Team collaboration",
+      "Team collaboration"
     ],
   },
   {
@@ -47,12 +47,14 @@ const jobPositions = [
     place: "Delaware North America",
     previousPositions: [""],
     description:
-      "I analyzed SAP datasets using Excel and SQL, enhancing data workflows. I built dashboards in Power BI for improved metrics visibility, conducted A/B testing to evaluate data strategies, and collaborated with teams to refine data processes.",
+      "Evaluated SAP datasets to improve metrics visibility, conducted A/B testing to optimize data strategies, and collaborated with teams to streamline and document workflows, enhancing efficiency.",
     skills: [
       "Power BI",
       "A/B Testing",
       "SQL Profiency",
       "Requirements gathering",
+      "ERP",
+      "DBT"
     ],
   },
   {
@@ -61,13 +63,13 @@ const jobPositions = [
     place: "University of Cincinnati, College of Medicine",
     previousPositions: [""],
     description:
-      "I developed a Bash-based pipeline to streamline data processing. I analyzed gene datasets with R and SQL to uncover patterns and enhance insights. I also implemented quality control measures and collaborated with teams to interpret results and support projects.",
+      "Built a pipeline to streamline data processing, analyzed gene datasets for insights, implemented quality control, and presented research at conferences, securing funding for projects.",
     skills: [
       "Python",
       "R",
       "PostgreSQL",
       "Bash",
-      "ETL",
+      "ETL"
     ],
   },
   {
@@ -76,7 +78,7 @@ const jobPositions = [
     place: "Accenture",
     previousPositions: [""],
     description:
-      "Analyzed enrollment trends during COVID-19 using Python and SQL, designed a database schema for tracking, and created visualizations and Tableau dashboards to highlight the pandemic's impact on education.",
+      "Analyzed enrollment trends during COVID-19, optimized data tracking, created visualizations, and developed dashboards to support senior management’s decisions.",
     skills: [
       "SQL",
       "Database Design",
