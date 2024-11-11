@@ -19,7 +19,9 @@ Before running the project, ensure you have the following installed on your mach
 
    ```bash
    git clone https://github.com/roshnik1/e-portfolio.git
-
+   ```
+   Then, navigate to portfolio directory:
+   ```bash
    cd e-portfolio
    ```
 2. **Install Dependencies**
