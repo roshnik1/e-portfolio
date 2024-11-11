@@ -39,8 +39,7 @@ const jobPositions = [
       "Clinical Data",
       "Programming (Python/SQL)",
       "ETL Processes",
-      "Tableau",
-      "Team collaboration"
+      "Tableau"
     ],
   },
   {
