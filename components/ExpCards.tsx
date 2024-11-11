@@ -23,7 +23,8 @@ const jobPositions = [
       "Excel Expertise",
       "SQL Querying",
       "Crtical Thinking",
-      "Cross-functional Collaboration"
+      "Power BI",
+      "SAP ERP"
     ],
   },
   {
@@ -35,6 +36,7 @@ const jobPositions = [
       "Analyzed clinical data to improve reporting accuracy, created dashboards to visualize outcomes, and worked with clinical teams to align analytics with operational goals.",
     skills: [
       "Statistical Analysis",
+      "Clinical Data",
       "Programming (Python/SQL)",
       "ETL Processes",
       "Tableau",
@@ -66,10 +68,13 @@ const jobPositions = [
       "Built a pipeline to streamline data processing, analyzed gene datasets for insights, implemented quality control, and presented research at conferences, securing funding for projects.",
     skills: [
       "Python",
+      "Big Data",
+      "Spark",
       "R",
       "PostgreSQL",
-      "Bash",
-      "ETL"
+      "Linux/Bash",
+      "ETL Processes",
+      "K-Means Clustering"
     ],
   },
   {
@@ -83,16 +88,16 @@ const jobPositions = [
       "SQL",
       "Database Design",
       "Problem-Solving",
-      "Trend analysis"
+      "Trend Analysis"
     ],
   },
 ];
 
 export default function ExpCard() {
   return (
-    <section id="experience" className="scroll-mt-16 lg:mt-16">
+    <section id="experience" className="scroll-mt-10 mt-[200px]">
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/0 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-        <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">
+        <h2 className="text-md font-bold uppercase tracking-widest lg:sr-only">
           Experience
         </h2>
       </div>
@@ -100,10 +105,10 @@ export default function ExpCard() {
         {jobPositions.map((job, index) => (
           <Card
             key={index}
-            className="lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200"
+            className="lg:p-6 mb-4 flex flex-col lg:flex-row w-[650px] min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-[#b94bfa]/60 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-[#b94bfa]/60"
           >
-            <CardHeader className="h-full w-full p-0">
-              <CardTitle className="text-sm text-slate-400 whitespace-nowrap">
+            <CardHeader className="h-full w-[400px] p-0">
+              <CardTitle className="text-sm w-[170px] text-slate-500 whitespace-nowrap">
                 {job.timeline}
               </CardTitle>
             </CardHeader>

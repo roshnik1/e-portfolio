@@ -13,33 +13,36 @@ import { MoveRight } from "lucide-react";
 
 const jobProjects = [
   {
-    imagePath: "/krodash.png",
-    title: "KroDash - Retail Data Dashboard Development",
-    description:
-      "Krodash is a Kroger retail data dashboard that provides timely insights into sales performance, regional levels, and product behavior, enabling data-driven decision-making for retail operations.",
-    skills: [
-      "SQLite",
-      "Flask",
-      "Bootstrap",
-      "PostgreSQL",
-      "Azure",
-      "Heroku",
-    ],
-    link: "https://github.com/roshnik1/KroDash",
-  },
-  {
     imagePath: "/code_assistant.png",
     title: "AI-Driven Python Coding Assistant",
     description:
-      "This is an OpenAI-powered platform for Python 101 students at the University of Cincinnati to provide assignment feedback and assist with coding challenges, enhancing their learning experience.",
+      "This is an OpenAI-powered platform developed for Python 101 students at the University of Cincinnati to provide assignment feedback and assist with coding challenges, enhancing their learning experience.",
     skills: [
       "Python",
       "Artificial Intelligence",
+      "Open-AI",
+      "Chatbot",
       "HTML/CSS/Javascript",
       "Vercel",
       "Firebase"
     ],
     link: "https://github.com/roshnik1/CodeInCStructor.ai",
+  },
+  {
+    imagePath: "/krodash.png",
+    title: "KroDash - Retail Data Dashboard",
+    description:
+      "Krodash is a Kroger retail data dashboard that provides timely insights into sales performance, regional levels, and product behavior, enabling data-driven decision-making for retail operations.",
+    skills: [
+      "SQLite",
+      "Dashboard Development",
+      "Flask",
+      "HTML/CSS/Javascript",
+      "PostgreSQL",
+      "Azure",
+      "Heroku",
+    ],
+    link: "https://github.com/roshnik1/KroDash",
   },
   {
     imagePath: "/snl_cast.png",
@@ -84,7 +87,7 @@ export default function Projects() {
             rel="noopener noreferrer"
             className="hover:cursor-pointer"
           >
-            <Card className="group lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200">
+            <Card className="group lg:p-6 mb-4 flex flex-col lg:flex-row w-[650px] min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-[#b94bfa]/60 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-[#b94bfa]/60">
               <CardHeader className="h-full w-full lg:w-1/3 mb-4 p-0">
                 <Image
                   src={project.imagePath}
@@ -96,7 +99,7 @@ export default function Projects() {
                 />
               </CardHeader>
               <CardContent className="flex flex-col p-0 w-full lg:w-2/3">
-                <p className="text-primary font-bold">
+                <p className="text-white font-bold">
                   {project.title}{" "}
                   <MoveUpRight className="ml-1 inline-block h-5 w-5 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none" />
                 </p>
