@@ -1,6 +1,7 @@
 "use client";
-/* eslint-disable */
+
 import styled from 'styled-components';
+import { MoveRight } from "lucide-react";
 
 const BoldT = styled.span`
   font-weight: bold;

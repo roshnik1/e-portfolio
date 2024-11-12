@@ -8,6 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { MoveUpRight } from "lucide-react";
 
 const jobPositions = [
   {
@@ -26,6 +27,7 @@ const jobPositions = [
       "Power BI",
       "SAP ERP"
     ],
+    link: "https://www.nutrien.com/about"
   },
   {
     timeline: "Aug 2023 — March 2024",
@@ -41,6 +43,7 @@ const jobPositions = [
       "ETL Processes",
       "Tableau"
     ],
+    link: "https://med.uc.edu/depart/neurosurgery/research/neurotrauma/alumni",
   },
   {
     timeline: "May 2023 — Aug 2023",
@@ -57,6 +60,7 @@ const jobPositions = [
       "ERP",
       "DBT"
     ],
+    link: "https://www.delawareconsulting.com/en-us/about-us",
   },
   {
     timeline: "May 2021 — April 2023",
@@ -75,6 +79,7 @@ const jobPositions = [
       "ETL Processes",
       "K-Means Clustering"
     ],
+    link: "https://med.uc.edu/depart/neurosurgery/research/neurotrauma/alumni",
   },
   {
     timeline: "May 2020 — Aug 2020",
@@ -88,6 +93,7 @@ const jobPositions = [
       "Database Design",
       "Problem-Solving"
     ],
+    link: "https://www.accenture.com/us-en", 
   },
 ];
 
@@ -99,20 +105,24 @@ export default function ExpCard() {
           Experience
         </h2>
       </div>
-      <>
         {jobPositions.map((job, index) => (
-          <Card
+          <a
             key={index}
-            className="lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-[#b94bfa]/60 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-[#b94bfa]/60"
+            href={job.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:cursor-pointer"
           >
+          <Card className="group lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-[#b94bfa]/60 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-[#b94bfa]/60">
             <CardHeader className="h-full w-[400px] p-0">
               <CardTitle className="text-sm w-[170px] text-slate-500 whitespace-nowrap">
                 {job.timeline}
               </CardTitle>
             </CardHeader>
             <CardContent className="flex flex-col p-0">
-              <p className="text-foreground font-bold">
+              <p className="text-white group-hover:text-[#d896ff] cursor-pointer font-bold">
                 {job.currentPosition} • {job.place}
+                <MoveUpRight className="ml-1 inline-block h-5 w-5 shrink-0 transition-transform group-hover:text-[#d896ff] group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none" />
               </p>
               {job.previousPositions.map((position, index) => (
                 <p key={index} className="text-slate-400 text-sm font-bold">
@@ -129,8 +139,8 @@ export default function ExpCard() {
               </CardFooter>
             </CardContent>
           </Card>
-        ))}
-      </>
+        </a>
+      ))}
     </section>
   );
 }

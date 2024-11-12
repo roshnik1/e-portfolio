@@ -99,9 +99,9 @@ export default function Projects() {
                 />
               </CardHeader>
               <CardContent className="flex flex-col p-0 w-full lg:w-2/3">
-                <p className="text-white font-bold">
+                <p className="text-white group-hover:text-[#d896ff] font-bold">
                   {project.title}{" "}
-                  <MoveUpRight className="ml-1 inline-block h-5 w-5 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none" />
+                  <MoveUpRight className="ml-1 inline-block h-5 w-5 shrink-0 transition-transform group-hover:text-[#d896ff] group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none" />
                 </p>
                 <CardDescription className="py-3 text-muted-foreground">
                   {project.description}
@@ -116,17 +116,17 @@ export default function Projects() {
           </a>
         ))}
       </>
-      <div className="lg:px-12 mt-12">
+      <div className="lg:px-6 mt-12">
         <a
           href="https://github.com/roshnik1"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center font-medium leading-tight text-foreground group"
         >
-          <span className="border-b border-transparent pb-px transition hover:border-primary motion-reduce:transition-none">
+          <span className="border-b border-transparent pb-px transition hover:text-[#d896ff] hover:border-[#d896ff] motion-reduce:transition-none">
             View Full Project Archive
           </span>
-          <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />
+          <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:text-[#d896ff] group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />
         </a>
       </div>
     </section>
