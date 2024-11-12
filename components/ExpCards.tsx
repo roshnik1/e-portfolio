@@ -17,7 +17,7 @@ const jobPositions = [
     place: "Nutrien",
     previousPositions: [""],
     description:
-      "I analyze data to support business decisions and improve processes. Using Power BI, Excel, and SQL, I create dashboards and provide actionable insights that drive efficiency and optimize operations. I collaborate with teams to translate complex data into clear recommendations.",
+      "Analyze data to support business decisions, improve processes, and drive efficiency by providing actionable insights and collaborating with teams to turn complex data into clear, strategic recommendations.",
     skills: [
       "Data Analysis",
       "Dashboard Development",
@@ -68,7 +68,7 @@ const jobPositions = [
     place: "University of Cincinnati, College of Medicine",
     previousPositions: [""],
     description:
-      "Built a pipeline to streamline data processing, analyzed gene datasets for insights, implemented quality control, and presented research at conferences, securing funding for projects.",
+      "Built a pipeline to streamline data processing, analyzed gene datasets for insights, implemented quality control, and presented research at conferences, securing funding for future projects.",
     skills: [
       "Python",
       "Big Data",
