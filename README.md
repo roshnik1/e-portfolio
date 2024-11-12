@@ -1,6 +1,6 @@
 # 🌟 Welcome to My ePortfolio!
 
-Hello! I am a data enthusiast dedicated to transforming data into compelling narratives that drive insights and inform decision-making. 📊✨ My journey has been fueled by a curiosity for uncovering insights that drive real-world change. I'm excited to leverage my skills and enthusiasm to tackle new challenges and contribute to impactful decision-making. Check out my portfolio [**here**](https://e-portfolio-blond.vercel.app/), and don’t hesitate to reach out if you’d like to connect!
+Check out my portfolio [**here**](https://e-portfolio-blond.vercel.app/), and don’t hesitate to reach out if you’d like to connect!
 
 ## Steps to run this project on your local machine
 
@@ -19,7 +19,9 @@ Before running the project, ensure you have the following installed on your mach
 
    ```bash
    git clone https://github.com/roshnik1/e-portfolio.git
-
+   ```
+   Then, navigate to portfolio directory:
+   ```bash
    cd e-portfolio
    ```
 2. **Install Dependencies**
@@ -33,4 +35,5 @@ Before running the project, ensure you have the following installed on your mach
    Open your browser and go to ```http://localhost:3000```
 
 ## Contributing
-Feel free to fork the repository and submit a pull request. You can also use this portfolio as a template for your own!
+Feel free to fork the repository and submit a pull request. You can also use this portfolio as a template for your own! 
+>This project is based on the original work by [**Brittany Chiang**](https://brittanychiang.com/).
