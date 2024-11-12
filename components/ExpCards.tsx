@@ -19,10 +19,9 @@ const jobPositions = [
     description:
       "Analyze data to support business decisions, improve processes, and drive efficiency by providing actionable insights and collaborating with teams to turn complex data into clear, strategic recommendations.",
     skills: [
-      "Data Analysis",
       "Dashboard Development",
-      "Excel Expertise",
-      "SQL Querying",
+      "Advanced Excel Expertise",
+      "Advanced SQL",
       "Crtical Thinking",
       "Power BI",
       "SAP ERP"
@@ -40,7 +39,7 @@ const jobPositions = [
       "Statistical Analysis",
       "Clinical Data",
       "Programming (Python/SQL)",
-      "ETL Processes",
+      "ETL",
       "Tableau"
     ],
     link: "https://med.uc.edu/depart/neurosurgery/research/neurotrauma/alumni",
