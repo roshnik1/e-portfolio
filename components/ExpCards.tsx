@@ -40,7 +40,8 @@ const jobPositions = [
       "Clinical Data",
       "Programming (Python/SQL)",
       "ETL",
-      "Tableau"
+      "Tableau",
+      "CI/CD Pipeline"
     ],
     link: "https://med.uc.edu/depart/neurosurgery/research/neurotrauma/alumni",
   },
