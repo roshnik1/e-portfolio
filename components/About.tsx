@@ -18,7 +18,7 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-2">
-        I’m a data analyst with a passion for turning complex datasets into actionable insights.
+        Hi there! I’m a data analyst with a passion for turning complex datasets into actionable insights.
         Back in college, I discovered my passion for <BoldT>data analytics</BoldT> through 
         various internships and projects, where I worked on projects processing large-scale retail and financial
         data, sparking my interest in using data to solve real-world problems.
