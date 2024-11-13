@@ -10,6 +10,8 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { MoveUpRight } from "lucide-react";
 import { MoveRight } from "lucide-react";
+import { useSpring, animated } from '@react-spring/web';
+import { useEffect, useState } from 'react';
 
 const jobProjects = [
   {
@@ -71,6 +73,21 @@ const jobProjects = [
 ];
 
 export default function Projects() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  // Trigger animation when component is mounted
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
+
+  // Fade-in animation for project cards
+  const fadeIn = useSpring({
+    opacity: isVisible ? 1 : 0,
+    transform: isVisible ? 'translateY(0)' : 'translateY(20px)', // Sliding effect
+    from: { opacity: 0, transform: 'translateY(20px)' },
+    config: { tension: 150, friction: 20 },
+  });
+
   return (
     <section id="projects" className="scroll-mt-16 lg:mt-16">
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/0 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">

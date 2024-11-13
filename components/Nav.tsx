@@ -54,19 +54,6 @@ export default function Nav() {
           decision-making and drive results.
         </p>
       </div>
-      <div className="lg:px-0 mt-0">
-        <a
-          href="https://github.com/roshnik1"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center font-medium leading-tight text-foreground group"
-        >
-          <span className="border-b border-transparent pb-px transition group-hover:text-[#d896ff] hover:border-[#d896ff] motion-reduce:transition-none">
-            View Full Résumé
-          </span>
-          <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:text-[#d896ff] group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />
-        </a>
-      </div>
       <nav className="lg:flex hidden">
         <ul className="flex flex-col w-max text-start gap-6 uppercase text-xs font-medium">
           {navItems.map((item: NavItem) => {
