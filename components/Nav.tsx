@@ -1,14 +1,47 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import useActiveSection from "@/hooks/useActiveSection";
-import { FaGoodreadsG, FaGithub, FaLinkedin, FaEnvelope, FaGoodreads } from "react-icons/fa";
-import { MoveRight } from "lucide-react";
+import { FaGithub, FaLinkedin, FaEnvelope, FaGoodreads } from "react-icons/fa";
+import { useSpring, animated } from '@react-spring/web';
+import { useEffect, useState } from 'react';
+
 type NavItem = {
   name: string;
   href: string;
 };
 
 export default function Nav() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  // Trigger animations on mount
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
+
+  const fadeIn = useSpring({
+    opacity: isVisible ? 1 : 0,
+    transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
+    from: { opacity: 0, transform: 'translateY(20px)' },
+    config: { tension: 150, friction: 20 },
+  });
+
+  const fadeIn2 = useSpring({
+    opacity: isVisible ? 1 : 0,
+    transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
+    from: { opacity: 0, transform: 'translateY(20px)' },
+    delay: 200, // Staggered delay for the second paragraph
+    config: { tension: 100, friction: 20 },
+  });
+
+  // Third paragraph animation with further delay
+  const fadeIn3 = useSpring({
+    opacity: isVisible ? 1 : 0,
+    transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
+    from: { opacity: 0, transform: 'translateY(20px)' },
+    delay: 400, // Staggered delay for the third paragraph
+    config: { tension: 100, friction: 20 },
+  });
+  
   const activeSection = useActiveSection([
     "about",
     "experience",
@@ -43,16 +76,16 @@ export default function Nav() {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
       <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
-        <h1 className="text-[42px] font-bold lg:text-start">
+        <animated.p style={fadeIn} className="text-[42px] font-bold lg:text-start">
           Roshni Khatri
-        </h1>
-        <h2 className="text-xl lg:text-start">
+        </animated.p>
+        <animated.p style={fadeIn2} className="text-xl lg:text-start">
           Data-Driven Problem Solver
-        </h2>
-        <p className="text-base lg:text-start text-muted-foreground">
+        </animated.p>
+        <animated.p style={fadeIn3} className="text-base lg:text-start text-muted-foreground">
           I deliver actionable insights that enhance <br></br>
           decision-making and drive results.
-        </p>
+        </animated.p>
       </div>
       <nav className="lg:flex hidden">
         <ul className="flex flex-col w-max text-start gap-6 uppercase text-xs font-medium">
