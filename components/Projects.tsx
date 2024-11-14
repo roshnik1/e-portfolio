@@ -10,6 +10,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { MoveUpRight } from "lucide-react";
 import { MoveRight } from "lucide-react";
+import FadeInOnScroll from './FadeInOnScroll';
 
 const jobProjects = [
   {
@@ -80,6 +81,7 @@ export default function Projects() {
       </div>
       <>
         {jobProjects.map((project, index) => (
+          <FadeInOnScroll key={index} threshold={0.5} duration="5000ms">
           <a
             key={index}
             href={project.link}
@@ -87,7 +89,7 @@ export default function Projects() {
             rel="noopener noreferrer"
             className="hover:cursor-pointer"
           >
-            <Card className="group lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-[#b94bfa]/60 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-[#b94bfa]/60">
+            <Card className="group lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 bg-transparent border-transparent hover:border dark:lg:hover:border-t-[#b94bfa]/60 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-[#b94bfa]/60 transition-transform transform hover:scale-105 hover:shadow-xl">
               <CardHeader className="h-full w-full lg:w-1/3 mb-4 p-0">
                 <Image
                   src={project.imagePath}
@@ -114,6 +116,7 @@ export default function Projects() {
               </CardContent>
             </Card>
           </a>
+        </FadeInOnScroll>
         ))}
       </>
       <div className="lg:px-6 mt-12">
