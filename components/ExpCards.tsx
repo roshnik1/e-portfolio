@@ -10,6 +10,8 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { MoveUpRight } from "lucide-react";
 import FadeInOnScroll from './FadeInOnScroll';
+import { useSpring, animated } from '@react-spring/web';
+import { useEffect, useState } from 'react';
 
 const jobPositions = [
   {
@@ -99,8 +101,27 @@ const jobPositions = [
 ];
 
 export default function ExpCard() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  // Trigger animations on mount
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
+
+  const fadeIn = useSpring({
+    opacity: isVisible ? 1 : 0,
+    transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
+    from: { opacity: 0, transform: 'translateY(20px)' },
+    config: { tension: 150, friction: 20 },
+  });
+
   return (
     <section id="experience" className="scroll-mt-15 pt-20 lg:mt-20">
+      <h2 className="text-base lg:text-start text-bold">
+        E X P E R I E N C E
+        <br />
+        <br />
+      </h2>
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/0 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
         <h2 className="text-md font-bold uppercase tracking-widest lg:sr-only">
           Experience
