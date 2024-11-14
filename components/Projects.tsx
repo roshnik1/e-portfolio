@@ -75,7 +75,7 @@ export default function Projects() {
   return (
     <section id="projects" className="scroll-mt-16 lg:mt-16">
       <h2 className="text-base lg:text-start text-bold">
-        E X P E R I E N C E
+        P R O J E C T S
         <br />
         <br />
       </h2>
