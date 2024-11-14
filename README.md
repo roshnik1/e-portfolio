@@ -1,6 +1,6 @@
 # 🌟 Welcome to My ePortfolio!
 
-Check out my portfolio [**here**](https://e-portfolio-blond.vercel.app/), and don’t hesitate to reach out if you’d like to connect!
+Check out my portfolio [**here**](https://roshnik-portfolio.vercel.app/), and don’t hesitate to reach out if you’d like to connect!
 
 ## Steps to run this project on your local machine
 
